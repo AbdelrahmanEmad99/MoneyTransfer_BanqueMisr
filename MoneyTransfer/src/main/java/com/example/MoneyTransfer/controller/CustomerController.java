@@ -26,6 +26,7 @@ import java.util.List;
 @RequestMapping("/api/customer")
 @RequiredArgsConstructor
 @Validated
+@CrossOrigin(origins = "*")
 @Tag(name = "Customer Controller", description = "Customer controller")
 public class CustomerController {
 

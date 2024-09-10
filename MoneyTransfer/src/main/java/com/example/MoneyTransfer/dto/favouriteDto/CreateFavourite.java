@@ -14,4 +14,5 @@ public class CreateFavourite {
     private String recipientName;
 
 
+
 }

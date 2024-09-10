@@ -28,7 +28,7 @@ import java.util.List;
 @RequestMapping("/api/favourites")
 @RequiredArgsConstructor
 @Validated
-
+@CrossOrigin(origins = "*")
 @Tag(name = "Favourite Controller ", description = "Favourite Controller ")
 
 public class FavouriteController {

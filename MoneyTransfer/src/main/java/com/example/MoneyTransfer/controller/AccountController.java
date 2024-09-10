@@ -22,6 +22,7 @@ import javax.security.auth.login.AccountNotFoundException;
 @RequestMapping("/api/account")
 @RequiredArgsConstructor
 @Validated
+@CrossOrigin(origins = "*")
 public class AccountController {
 
 

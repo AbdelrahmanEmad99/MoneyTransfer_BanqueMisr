@@ -32,6 +32,7 @@ import java.util.Map;
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
 @Validated
+@CrossOrigin(origins = "*")
 @Tag(name = "Customer Auth Controller", description = "Customer Auth controller")
 public class AuthController {
 
